@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Weclome"/>
+
+    <TextView
+        android:id="@+id/txtRealName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtName"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="RealName"/>
+
+    <TextView
+        android:id="@+id/firstAppearance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtRealName"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="First Appearance"/>
+
+    <TextView
+        android:id="@+id/txtTeam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/firstAppearance"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Team"/>
+
+    <TextView
+        android:id="@+id/CreatedBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtTeam"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Created By"/>
+
+    <TextView
+        android:id="@+id/publisher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/CreatedBy"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="publisher"/>
+
+    <TextView
+        android:id="@+id/imageUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/publisher"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="image url"/>
+
+    <TextView
+        android:id="@+id/bio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/imageUrl"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="bio"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
